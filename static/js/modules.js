@@ -22,6 +22,11 @@ app.config(function($routeProvider){
 		controllerAs: 'homeCtrl',
 		templateUrl: '/partials/sevenone.partial.html'
 	})
+	.when('/seventwo', {
+		controller: 'HomeController',
+		controllerAs: 'homeCtrl',
+		templateUrl: '/partials/seventwo.partial.html'
+	})
 	
 
 

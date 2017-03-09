@@ -32,7 +32,7 @@
     margin-top: 3%;
     font-size: 16pt;
     font-family: 'Frijole', cursive;
-    color: #ff4c4c;
+    color: crimson;
     text-shadow: 2px 2px 2px darkblue;
 
   }
@@ -75,6 +75,24 @@
     margin: auto;
     width: 99.5%;
     height: 370px;
+    margin-top: 3px;
+    margin-left: 1px;
+
+  }
+  #frame4
+  {
+    margin: auto;
+    width: 99.5%;
+    height: 320px;
+    margin-top: 3px;
+    margin-left: 1px;
+
+  }
+   #frame5
+  {
+    margin: auto;
+    width: 99.5%;
+    height: 420px;
     margin-top: 3px;
     margin-left: 1px;
 
@@ -141,6 +159,22 @@
   {
     display: none;
   }
+  #poster5
+  {
+    
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-bottom: 10%;
+  }
+  #poster6
+  {
+    
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-bottom: 10%;
+  }
 
 }
 
@@ -206,6 +240,15 @@
     display: inline-block;
     width: 34%;
     margin: 3%;
+    vertical-align: top;
+  }
+  #iframe_div1
+  {
+    display: inline-block;
+    width: 427px;
+    margin-left: 16%;
+    margin-top: 2.3%;
+    vertical-align: top;
   }
   #poster
   {
@@ -299,6 +342,26 @@
     display: none;
    
   }
+  #poster4
+  {
+    display: block;
+    width: 25%;
+    margin: auto;
+  }
+  #poster5
+  {
+    margin-left: 23%;
+    width: 204px;
+    display: inline-block;
+    margin-top: 3%;
+  }
+  #poster6
+  {
+    margin-left: 0;
+    width: 100%;
+    display: inline-block;
+    margin-top: 3%;
+  }
 
   #div1
   {
@@ -306,6 +369,12 @@
     width: 33%;
     margin-left: 11%;
     margin-top: 3%;
+  }
+  #div3
+  {
+    display: block;
+    width: 60%;
+    margin: auto;
   }
   #div2
   {
@@ -321,6 +390,13 @@
     width: 33%;
     margin: 3%;
   }
+  #frame4
+  {
+    margin-left: 0;
+    width: 33%;
+    margin: 3%;
+  }
+
 
   #frame1
   {
@@ -338,12 +414,7 @@
   {
     width:357px;
   }
-  #poster4
-  {
-    display: block;
-    width: 50%;
-    margin: auto;
-  }
+  
 
 
 
