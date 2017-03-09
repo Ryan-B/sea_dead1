@@ -1,0 +1,14 @@
+<p id="request_p">Please fill out the following and Admiral Construction will contact you real quick</p>
+
+<form ng-controller="ProductsController as productsCtrl">
+	
+	<input id = "bidname" ng-model="productsCtrl.newProduct.admiral_firstname" placeholder="First Name">
+	<input id = "bidname_last" ng-model="productsCtrl.newProduct.admiral_lastname" placeholder="Last Name">
+	<input type="email" id = "bid_email" ng-model="productsCtrl.newProduct.admiral_email" placeholder="Email Address">
+	<input type="text" id = "bid_phone" ng-model="productsCtrl.newProduct.admiral_phone" placeholder="Phone Number">
+	<p id="request_p">Describe your Project below:</p>
+	<textarea id = "bid_comment" ng-model="productsCtrl.newProduct.admiral_bidreq"></textarea>
+	<button id="button" type="submit" ng-click="productsCtrl.addProduct(productsCtrl.newProduct)">Send</button>
+
+</form>
+

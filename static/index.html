@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-barstyle" content="black-translucent">
+	<link rel="apple-touch-icon" href="icon-152.png">
+	<!-- for Chrome on Android, multi-resolution icon of 196x196 -->
+	<meta name="mobile-web-app-capable" content="yes">
+	<link rel="shortcut icon" sizes="196x196" href="icon-196.png">
+	<title>SeaDead</title>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTFbAShs-Vid1qTYfGxXzJgMJAVHM8vMs"></script>
+	<script type="text/javascript" src="/js/lib/angular.js"></script>
+	<script type="text/javascript" src="/js/lib/angular-routes.js"></script>
+	<script type="text/javascript" src="/js/modules.js"></script>
+  	<script type="text/javascript" src="/js/factories.factory.js"></script>
+  	<script type="text/javascript" src="/js/controllers.ctrl.js"></script>
+  	<script type="text/javascript" src="/js/directives.js"></script>
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="/js/lib/jquery.timer.js"></script>
+	<link rel="stylesheet" type="text/css" href="/css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Black+Ops+One|Gurajada|Inika|Special+Elite" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Frijole" rel="stylesheet">
+</head>
+<body>
+	<div id="title_section">
+	<img id="title_img" src="img/title2.jpg">
+
+	<ul id="menu_bar">
+		<a href="#/"><li id="first_menu" class="menu_li"><div class="menu_box">Home</div></li></a>
+		<a href="#/sixeight">1968</a>
+		<a href="#/sixnine">1969</a>
+		
+		
+	</ul>
+	<!-- <div id="menu_stack">
+		<a href="#menu"><img src="img/menu_stack.png"></a>
+	</div> -->
+
+		<div id="main_div">
+			<div ng-view id="stats"></div>
+		</div>
+		
+	</div>
+</body>
+</html>
