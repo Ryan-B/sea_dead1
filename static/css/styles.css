@@ -115,6 +115,33 @@
     vertical-align: top;
     
   }
+  #div1_3
+  {
+    display: inline-block;
+    width: 90%;
+    margin-left: 4%;
+    margin-top: 10%;
+    vertical-align: top;
+    
+  }
+  #div1_4
+  {
+    display: inline-block;
+    width: 90%;
+    margin-left: 4%;
+    margin-top: 10%;
+    vertical-align: top;
+    
+  }
+  #div1_5
+  {
+    display: inline-block;
+    width: 90%;
+    margin-left: 4%;
+    margin-top: 10%;
+    vertical-align: top;
+    
+  }
   #div1_1
   {
     display: none;
@@ -228,6 +255,14 @@
     margin: auto;
     margin-bottom: 10%;
   }
+  #poster9
+  {
+    
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-bottom: 10%;
+  }
 
 }
 
@@ -264,6 +299,7 @@
     display: inline-block;
     vertical-align: top;
     width: 99%;
+    margin-top: 0;
   }
   .inline_img3
   {
@@ -295,12 +331,21 @@
     margin: 3%;
     vertical-align: top;
   }
+  #iframe_div2
+  {
+    display: inline-block;
+    width: 325px;
+    margin-left: 12%;
+    vertical-align: top;
+    margin-top: 3%;
+    margin-right: 1%;
+  }
   #iframe_div1
   {
     display: inline-block;
     width: 423px;
     margin-left: 16%;
-    margin-top: 2.3%;
+    margin-top: 3%;
     vertical-align: top;
   }
   #poster
@@ -324,6 +369,28 @@
     width: 10%;
     margin-left: 11%;
     margin-top: 10%;
+  }
+  #div1_3
+  {
+    display: inline-block;
+    width: 20.2%;
+    margin-left: 6.5%;
+    margin-top: 5%;
+    vertical-align: top;
+  }
+  #div1_4
+  {
+    display: inline-block;
+    width: 60%;
+    margin-left: 6.5%;
+    margin-top: 5%;
+  }
+  #div1_5
+  {
+    display: block;
+    width: 30%;
+    margin: auto;
+    margin-top: 5%;
   }
   #poster2
   {
@@ -360,7 +427,7 @@
     margin-left: 0;
     width: 100%;
     display: inline-block;
-    margin-top: 3%;
+   
   }
   #poster6_1
   {
@@ -385,6 +452,13 @@
     margin: auto;
     margin-top: 3%;
 
+  }
+   #poster9
+  {
+    margin-left: 23%;
+    width: 198px;
+    display: inline-block;
+    margin-top: 3%;
   }
 
 
@@ -469,7 +543,7 @@
     margin-left: 0;
     width: 100%;
     display: inline-block;
-    margin-top: 3%;
+    /*margin-top: 3%;*/
   }
   #poster8
   {
@@ -477,7 +551,7 @@
     width: 50%;
     display: block;
     margin: auto;
-    margin-top: 3%;
+    margin-top: 5%;
 
   }
   #div1
@@ -502,6 +576,28 @@
     width: 20%;
     margin-left: 6%;
     margin-top: 3%;
+  }
+  #div1_3
+  {
+    display: inline-block;
+    width: 20.2%;
+    margin-left: 6.5%;
+    margin-top: 5%;
+    vertical-align: top;
+  }
+  #div1_4
+  {
+    display: inline-block;
+    width: 60%;
+    margin-left: 6.5%;
+    margin-top: 5%;
+  }
+  #div1_5
+  {
+    display: block;
+    width: 30%;
+    margin: auto;
+    margin-top: 5%;
   }
   #div3
   {
@@ -555,6 +651,7 @@
   {
     width:357px;
   }
+  
   
 
 
