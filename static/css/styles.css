@@ -115,6 +115,18 @@
     vertical-align: top;
     
   }
+  #div1_1
+  {
+    display: none;
+  }
+  #div3
+  {
+    display: inline-block;
+    width: 90%;
+    margin-left: 4%;
+    margin-top: 10%;
+    
+  }
   #div4
   {
     display: inline-block;
@@ -193,6 +205,12 @@
     display: block;
     margin: auto;
     margin-bottom: 10%;
+  }
+  #poster6_1
+  {
+    
+    display: none;
+    
   }
   #poster7
   {
@@ -344,6 +362,14 @@
     display: inline-block;
     margin-top: 3%;
   }
+  #poster6_1
+  {
+    margin-left: 0;
+    width: 100%;
+    display: inline-block;
+    margin-top: 3%;
+  }
+  
    #poster7
   {
     margin-left: 23%;
@@ -454,12 +480,27 @@
     margin-top: 3%;
 
   }
-
   #div1
   {
     display: inline-block;
     width: 33%;
     margin-left: 11%;
+    margin-top: 3%;
+  }
+
+  #div1_2
+  {
+    display: inline-block;
+    width: 27%;
+    margin-left: 6%;
+    margin-top: 3%;
+    vertical-align: top;
+  }
+  #div1_1
+  {
+    display: inline-block;
+    width: 20%;
+    margin-left: 6%;
     margin-top: 3%;
   }
   #div3
