@@ -115,6 +115,15 @@
     vertical-align: top;
     
   }
+  #div1_2
+  {
+    display: inline-block;
+    width: 90%;
+    margin-left: 4%;
+    margin-top: 10%;
+    vertical-align: top;
+    
+  }
   #div1_3
   {
     display: inline-block;
