@@ -294,6 +294,14 @@
     display: none;
     
   }
+  #poster11
+  {
+    
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-bottom: 10%;
+  }
 
 }
 
@@ -528,6 +536,13 @@
     display: inline-block;
     margin-top: 3%;
   }
+  #poster11
+  {
+    margin-left: 6.5%;
+    width: 288px;
+    display: inline-block;
+    margin-top: 3%;
+  }
 
 
 }
@@ -633,6 +648,13 @@
   {
     margin-left: 24.5%;
     width: 198px;
+    display: inline-block;
+    margin-top: 3%;
+  }
+   #poster11
+  {
+    margin-left: 21%;
+    width: 288px;
     display: inline-block;
     margin-top: 3%;
   }
