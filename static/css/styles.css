@@ -321,6 +321,13 @@
   #poster13 
   {
     
+    
+    display: none;
+    
+  }
+   #poster13_1
+  {
+    
     width: 80%;
     display: block;
     margin: auto;
@@ -594,6 +601,10 @@
     width: 158px;
     display: inline-block;
     margin-top: 3%;
+  }
+  #poster13_1
+  {
+    display: none;
   }
   #poster14
   {
