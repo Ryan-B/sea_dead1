@@ -47,6 +47,26 @@ app.config(function($routeProvider){
 		controllerAs: 'homeCtrl',
 		templateUrl: '/partials/sevennine.partial.html'
 	})
+	.when('/eightzero', {
+		controller: 'HomeController',
+		controllerAs: 'homeCtrl',
+		templateUrl: '/partials/eightzero.partial.html'
+	})
+	.when('/eightone', {
+		controller: 'HomeController',
+		controllerAs: 'homeCtrl',
+		templateUrl: '/partials/eightone.partial.html'
+	})
+	.when('/eighttwo', {
+		controller: 'HomeController',
+		controllerAs: 'homeCtrl',
+		templateUrl: '/partials/eighttwo.partial.html'
+	})
+	.when('/eightthree', {
+		controller: 'HomeController',
+		controllerAs: 'homeCtrl',
+		templateUrl: '/partials/eightthree.partial.html'
+	})
 	
 
 
