@@ -10,16 +10,21 @@
   }
   h3
   {
-    width: 80%;
-    display: block;
-    margin: auto;
+    margin: 5%;
+    
+    
     margin-top: 5%;
     color: darkblue;
     text-shadow: 1px 1px 1px crimson;
   }
+  #front_p
+  {
+    text-align: justify;
+    margin: 5%;
+  }
   #title_section
   {
-    background-image: url("/img/background.jpg");
+    background-image: url("/img/background_1.jpeg");
     /*background-repeat: no-repeat;*/
       /*background-size: cover;*/
       padding-top: 2px;
@@ -151,6 +156,25 @@
     vertical-align: top;
     
   }
+  #div1_8
+  {
+    display: inline-block;
+    width: 90%;
+    margin-left: 4%;
+    margin-top: 10%;
+    vertical-align: top;
+    
+  }
+  #div1_7
+  {
+    display: inline-block;
+    width: 90%;
+    margin-left: 4%;
+    margin-top: 10%;
+    vertical-align: top;
+    
+  }
+
   #div1_1
   {
     display: none;
@@ -341,6 +365,18 @@
     margin: auto;
     margin-bottom: 10%;
   }
+  #poster15 
+  {
+    
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-bottom: 10%;
+  }
+  #poster15_1
+  {
+    display: none;
+  }
 
 }
 
@@ -349,7 +385,7 @@
 
   #title_section
   {
-    background-image: url("/img/background.jpg");
+    background-image: url("/img/background_2.jpeg");
   }
 
   #title_h1
@@ -503,6 +539,22 @@
     margin: auto;
     margin-top: 5%;
   }
+  #div1_7
+  {
+    display: inline-block;
+    width: 45%;
+    margin-left: 3%;
+    margin-top: 5%;
+    vertical-align: top;
+  }
+  #div1_8
+  {
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    vertical-align: top;
+  }
   #poster2
   {
     display: none;
@@ -612,6 +664,20 @@
     width: 360px;
     display: inline-block;
     margin-top: 3%;
+  }
+  #poster15
+  {
+    margin-left: 12%;
+    width: 258px;
+    display: inline-block;
+    /*margin-top: 3%;*/
+  }
+  #poster15_1
+  {
+    margin-left: 12%;
+    width: 258px;
+    display: inline-block;
+    /*margin-top: 3%;*/
   }
 
 
@@ -749,6 +815,20 @@
     display: inline-block;
     margin-top: 3%;
   }
+  #poster15
+  {
+    margin-left: 12%;
+    width: 254px;
+    display: inline-block;
+    /*margin-top: 3%;*/
+  }
+  #poster15_1
+  {
+    margin-left: 12%;
+    width: 254px;
+    display: inline-block;
+    /*margin-top: 3%;*/
+  }
   #div1
   {
     display: inline-block;
@@ -793,6 +873,22 @@
     width: 25%;
     margin-left: 6.5%;
     margin-top: 5%;
+  }
+  #div1_7
+  {
+    display: inline-block;
+    width: 33%;
+    margin-left: 10%;
+    margin-top: 5%;
+    vertical-align: top;
+  }
+  #div1_8
+  {
+    display: block;
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+    vertical-align: top;
   }
   #div3
   {
