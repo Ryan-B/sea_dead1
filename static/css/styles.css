@@ -8,13 +8,14 @@
    {
     font-family: arial;
     margin: 5px;
-    margin-top: 5px;
+
 
 
    }
    #menu_bar
    {
     padding: 0;
+    margin-bottom: 5%;
    }
    img
   {
@@ -22,17 +23,20 @@
   }
   h3
   {
-    margin: 5%;
+    /*margin: 5%;*/
     
-    
-    margin-top: 5%;
+    width: 80%;
     color: darkblue;
     text-shadow: 1px 1px 1px crimson;
+    margin: auto;
+    /*margin-bottom: 1%;*/
   }
   #front_p
   {
     text-align: justify;
-    margin: 5%;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1%;
   }
   #title_section
   {
