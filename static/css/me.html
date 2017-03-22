@@ -1,0 +1,102 @@
+
+
+<script type="text/javascript">
+
+
+	
+function flipp(arr) {
+	var temp;
+
+	for (var i = arr.length - 1; i >= arr.length/2; i--) {
+		temp = arr[i];
+		arr[i] = arr[arr.length - i -1];
+		arr[arr.length - i -1] = temp;
+	};
+	console.log(arr)
+}
+flipp([0,2,4]);
+
+
+
+
+function noNeggas3(arr){
+	var counts = 0;
+
+	for (var i = 0; i < arr.length; i++) {
+		if(arr[i] >= 0) {
+			arr[counts++] = arr[i];
+		}
+	}
+	while(counts < arr.length){
+		arr.pop();
+	}
+	console.log(arr);
+}
+noNeggas3([3,4,5,-6,-7,10,-8]);
+
+
+function binary(arr, n) {
+	var start = 0;
+	var end = arr.length;
+
+	while(end > start){
+		var mid = Math.floor((end + start)/2);
+
+		if(n < arr[mid]) {
+			end = mid;
+		}
+		else if ( n > arr[mid]){
+			start = mid;
+		}
+		else { console.log("true"); return true}
+	}
+	console.log('false'); return false;
+}
+binary([4,5,6,7,8],8);
+
+function switcher1(arr) {
+	var temp;
+
+	for (var i = arr.length - 1; i >= arr.length/2; i--) {
+		temp = arr[i];
+		arr[i] = arr[arr.length - i - 1];
+		arr[arr.length - i - 1] = temp;
+	}
+	console.log(arr)
+}
+switcher1(["Plum", "Kelsey"]);
+
+function negs1(arr) {
+	var counts = 0;
+
+	for (var i = 0; i < arr.length; i++) {
+		if(arr[i] >= 0) {
+			arr[counts++] = arr[i];
+		}
+	}
+	while(counts < arr.length) {
+		arr.pop();
+	}
+	console.log(arr);
+}
+negs1([3,4,5,-6,-7,8,-9])
+
+function binary1(arr, val) {
+	var start = 0;
+	var end = arr.length;
+
+	while(end > start) {
+		var mid = Math.floor((end + start)/2);
+
+		if ( val > arr[mid]) {
+			start = arr[mid];
+		}
+		else if (val < arr[mid]){
+			end = arr[mid];
+		}
+		else {console.log("Dup"); return true;}
+	}
+	console.log("No"); return false;
+}
+binary1([2,3,3,4,5,6],3);
+</script>
