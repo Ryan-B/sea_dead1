@@ -77,6 +77,11 @@ app.config(function($routeProvider){
 		controllerAs: 'homeCtrl',
 		templateUrl: '/partials/ninefive.partial.html'
 	})
+	.when('/tampa', {
+		controller: 'HomeController',
+		controllerAs: 'homeCtrl',
+		templateUrl: '/partials/tampa.partial.html'
+	})
 	
 
 
