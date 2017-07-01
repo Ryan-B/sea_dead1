@@ -82,6 +82,11 @@ app.config(function($routeProvider){
 		controllerAs: 'homeCtrl',
 		templateUrl: '/partials/tampa.partial.html'
 	})
+	.when('/msg', {
+		controller: 'HomeController',
+		controllerAs: 'homeCtrl',
+		templateUrl: '/partials/msg.partial.html'
+	})
 	
 
 
